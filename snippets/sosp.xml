@@ -98,7 +98,8 @@
     
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sosp" revision="sosp-10" />
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sosp" revision="sosp-10" />
-    
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="sosp" revision="sosp-10" />
+
     <!-- Prebuilts -->
     
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp" revision="sosp-10" />
