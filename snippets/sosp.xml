@@ -72,7 +72,6 @@
     <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp" revision="sosp-10" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp" revision="sosp-10" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp" revision="sosp-10" />
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="sosp" revision="sosp-10" /> 
     
     <!-- System -->
     
@@ -131,8 +130,11 @@
     <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp" revision="sosp-10" />
     <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp" revision="sosp-10" /> 
     <project path="kernel/xiaomi/beryllium" name="android_kernel_xiaomi_beryllium" remote="sosp" revision="sosp-10" />
+    <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp" revision="sosp-10" />
+    <project path="vendor/xiaomi/beryllium" name="android_vendor_xiaomi_beryllium" remote="sosp" revision="sosp-10" /> 
     
     <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp" revision="sosp-10" /> 
     <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="sosp" revision="sosp-10" />
+    <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="sosp" revision="sosp-10" /> 
 
 </manifest>
