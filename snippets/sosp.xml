@@ -61,6 +61,7 @@
     
     <!-- SOSP Vendor Repos -->
     
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp" revision="sosp-10" /> 
     <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp" revision="sosp-10" />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp" revision="sosp-10" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp" revision="sosp-10" />
@@ -125,22 +126,31 @@
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp" revision="sosp-10" />
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp" revision="sosp-10"/>
     
-    <!-- Device -->
-
+    <!-- Sepolicy -->
+    
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp" revision="sosp-10" />
     <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp" revision="sosp-10" />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp" revision="sosp-10" />
     
+    <!-- Device Trees-->
+    
+                            <!-- Beryllium -->
+
     <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp" revision="sosp-10" />
     <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp" revision="sosp-10" /> 
     <project path="kernel/xiaomi/beryllium" name="android_kernel_xiaomi_beryllium" remote="sosp" revision="sosp-10" />
     <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp" revision="sosp-10" />
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_beryllium" remote="sosp" revision="sosp-10" /> 
     
+                            <!-- Whyred -->
     <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp" revision="sosp-10" /> 
     <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="sosp" revision="sosp-10" /> 
     <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="sosp" revision="sosp-10" />
     <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sosp" revision="sosp-10" />
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_whyred" remote="sosp" revision="sosp-10" /> 
+    
+                            <!-- Kenzo -->
+                            
+    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="sosp" revision="sosp-10" /> 
+    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="sosp" revision="sosp-10" /> 
+    <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" remote="sosp" revision="sosp-10" />                        
 
 </manifest>
