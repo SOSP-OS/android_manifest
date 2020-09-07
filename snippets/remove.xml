@@ -22,7 +22,6 @@
   <remove-project name="device/generic/uml" groups="device,pdk" />
   <remove-project name="device/generic/x86" groups="pdk" />
   <remove-project name="device/generic/x86_64" groups="pdk" />
-  <remove-project name="device/google/atv" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
