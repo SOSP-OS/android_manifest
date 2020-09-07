@@ -3,6 +3,8 @@
   
   <!-- Device repos -->
   
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -20,6 +22,7 @@
   <remove-project name="device/generic/uml" groups="device,pdk" />
   <remove-project name="device/generic/x86" groups="pdk" />
   <remove-project name="device/generic/x86_64" groups="pdk" />
+  <remove-project name="device/google/atv" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
