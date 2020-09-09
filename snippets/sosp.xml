@@ -5,13 +5,16 @@
         fetch="https://github.com/" />
 
     <remote name="sosp"
-        fetch="https://github.com/SOSP-OS" />
-    
+        fetch="https://github.com/SOSP-OS"        
+        revision="sosp-11"/>
+        
+    <remote name="sosp-caf"
+        fetch="https://github.com/SOSP-OS"/>
   
     <!-- General -->
 
-    <project path="build/blueprint" name="android_build_blueprint" remote="sosp" revision="sosp-10" />
-    <project path="build/make" name="android_build_make" remote="sosp" revision="sosp-10" >
+    <project path="build/blueprint" name="android_build_blueprint" remote="sosp"  />
+    <project path="build/make" name="android_build_make" remote="sosp"  >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -20,34 +23,34 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="sosp" revision="sosp-10" />
-    <project path="build/soong" name="android_build_soong" remote="sosp" revision="sosp-10" >
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="sosp"  />
+    <project path="build/soong" name="android_build_soong" remote="sosp"  >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="bionic" name="android_bionic" remote="sosp" revision="sosp-10" />
+    <project path="bionic" name="android_bionic" remote="sosp"  />
     
     <!-- Frameworks -->
     
-    <project path="frameworks/av" name="android_frameworks_av" remote="sosp" revision="sosp-10" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="sosp" revision="sosp-10" />
-    <project path="frameworks/native" name="android_frameworks_native" remote="sosp" revision="sosp-10" />
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sosp" revision="sosp-10" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="sosp"  />
+    <project path="frameworks/base" name="android_frameworks_base" remote="sosp"  />
+    <project path="frameworks/native" name="android_frameworks_native" remote="sosp"  />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sosp"  />
 
     <!-- CodeAurora additions -->
         
-    <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="sosp" revision="sosp-10-sdm845-caf"  />
-    <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="sosp" revision="sosp-10-sdm845-caf"  />
-    <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="sosp" revision="sosp-10-sdm845-caf"  />
-    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sosp" revision="sosp-10-msm8998-caf" />
-    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="sosp" revision="sosp-10-msm8998-caf" />
-    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="sosp" revision="sosp-10-msm8998-caf" />
-    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="sosp" revision="sosp-10-caf" />
-    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="sosp" revision="sosp-10-caf"/>
-    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="sosp" revision="sosp-10" />    
-    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="sosp" revision="sosp-10-caf" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="sosp" revision="sosp-10">
+    <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="sosp-caf" revision="sosp-10-sdm845-caf"  />
+    <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="sosp-caf" revision="sosp-10-sdm845-caf"  />
+    <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="sosp-caf" revision="sosp-10-sdm845-caf"  />
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sosp-caf" revision="sosp-10-msm8998-caf" />
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="sosp-caf" revision="sosp-10-msm8998-caf" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="sosp-caf" revision="sosp-10-msm8998-caf" />
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="sosp-caf" revision="sosp-10-caf" />
+    <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="sosp"  />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="sosp-caf" revision="sosp-10-caf"/>
+    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="sosp"  />    
+    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="sosp-caf" revision="sosp-10-caf" />
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="sosp" >
      <!-- Add guard for AOSP hardware/qcom dir -->
      <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
      <!-- For AOSP sdm845, we override os_pickup.mk -->
@@ -61,108 +64,92 @@
     
     <!-- SOSP Vendor Repos -->
     
-    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp" revision="sosp-10" /> 
-    <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp" revision="sosp-10" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" revision="sosp-10"/>
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp" revision="sosp-10" />  
-    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp" revision="sosp-10" />
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="sosp" revision="sosp-10"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="sosp" revision="sosp-10"/>
-    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="sosp" revision="sosp-10"/>
-    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="sosp" revision="sosp-10" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  /> 
+    <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp"  />
+    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp"  />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp"  />
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp"  />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp"  />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp"  />  
+    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="sosp"  />
+    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp"  />
+    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp"  />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp"  />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="sosp" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="sosp" />
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="sosp" />
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="sosp"  />
      
     <!-- System -->
     
-    <project path="system/bt" name="android_system_bt" remote="sosp" revision="sosp-10" />
-    <project path="system/core" name="android_system_core" remote="sosp" revision="sosp-10"  />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="sosp" revision="sosp-10"  />
-    <project path="system/netd" name="android_system_netd" remote="sosp" revision="sosp-10"  />
-    <project path="system/vold" name="android_system_vold" remote="sosp" revision="sosp-10"  />
+    <project path="system/bt" name="android_system_bt" remote="sosp"  />
+    <project path="system/core" name="android_system_core" remote="sosp"   />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="sosp"   />
+    <project path="system/netd" name="android_system_netd" remote="sosp"   />
+    <project path="system/vold" name="android_system_vold" remote="sosp"   />
     
     <!-- Hardware -->
     
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sosp" revision="sosp-10" />
-    <project path="hardware/ril" name="android_hardware_ril" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="sosp" revision="sosp-10" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sosp" revision="sosp-10" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="sosp" revision="sosp-10"/>
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="sosp" revision="sosp-10"/>
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sosp" revision="sosp-10" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sosp" revision="sosp-10"/>  
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sosp"  />
+    <project path="hardware/ril" name="android_hardware_ril" remote="sosp"  />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sosp"  />
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="sosp"  />
+    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="sosp"  />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sosp"  />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="sosp"  />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sosp"  />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="sosp" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="sosp" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sosp"  />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sosp" />  
     
     <!-- Packages -->
     
-    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sosp" revision="sosp-10" />
-    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="sosp" revision="sosp-10" />
-    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="sosp" revision="sosp-10" />
+    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sosp"  />
+    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sosp"  />
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="sosp"  />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sosp"  />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="sosp"  />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sosp"  />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sosp"  />
+    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="sosp"  />
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="sosp"  />
 
     <!-- Prebuilts -->
     
-    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp" revision="sosp-10" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="sosp" revision="sosp-10" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="sosp" revision="sosp-10" />
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp"  />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="sosp"  />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="sosp"  />
     
     <!-- Services -->
     
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="sosp" revision="sosp-10" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="sosp" revision="sosp-10" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="sosp"  />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="sosp"  />
     
     <!-- External-->
     
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp" revision="sosp-10" />
-    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp" revision="sosp-10"/>
-    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sosp" revision="sosp-10"/>
-    <project path="external/json-c" name="android_external_json-c" remote="sosp" revision="sosp-10"/>
-    <project path="external/exfat" name="android_external_exfat" remote="sosp" revision="sosp-10" />
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp" revision="sosp-10" />
-    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp" revision="sosp-10"/>
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
+    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp" />
+    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sosp" />
+    <project path="external/json-c" name="android_external_json-c" remote="sosp" />
+    <project path="external/exfat" name="android_external_exfat" remote="sosp"  />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp"  />
+    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp" />
     
     <!-- Sepolicy -->
     
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp" revision="sosp-10" />
-    <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp" revision="sosp-10" />
-    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp" revision="sosp-10" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp"  />
+    <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp"  />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp"  />
     
     
     <!-- Device Trees-->
     
                             <!-- Beryllium -->
 
-    <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp" revision="sosp-10" />
-    <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp" revision="sosp-10" /> 
-    <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp" revision="sosp-10" />
-    
-                            <!-- Whyred -->
-                            
-    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp" revision="sosp-10" /> 
-    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="sosp" revision="sosp-10" /> 
-    <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sosp" revision="sosp-10" />
-    
-                            <!-- Kenzo -->
-                            
-    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="sosp" revision="sosp-10" /> 
-    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="sosp" revision="sosp-10" /> 
-    <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" remote="sosp" revision="sosp-10" />                        
-
-                            <!-- Yukawa -->
-                            
-    <project path="device/amlogic/yukawa" name="device_amlogic_yukawa" remote="sosp" revision="sosp-10" />     
-                        
+    <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp"  />
+    <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp"  /> 
+    <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp"  />
+                                                
 </manifest>

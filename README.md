@@ -23,7 +23,7 @@ GIT config (nickname, e-mail):
 To initialize your local repository use:
 ---------------------------------------
     cd ~/Sosp-OS
-    repo init -u https://github.com/SOSP-OS/android_manifest.git
+    repo init -u https://github.com/SOSP-OS/android_manifest.git -b sosp-11
 
 Then to sync up:
 ----------------
