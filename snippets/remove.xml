@@ -49,6 +49,8 @@
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar" />
@@ -57,18 +59,10 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  
-  
-
-  
-  <remove-project name="device/linaro/dragonboard" />
-  <remove-project name="device/linaro/dragonboard-kernel" />
-      
-  
+       
   <!-- General repos -->
   
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />

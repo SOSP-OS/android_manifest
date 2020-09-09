@@ -12,8 +12,7 @@
         fetch="https://github.com/SOSP-OS"/>
   
     <!-- General -->
-
-    <project path="build/blueprint" name="android_build_blueprint" remote="sosp"  />
+    
     <project path="build/make" name="android_build_make" remote="sosp"  >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
