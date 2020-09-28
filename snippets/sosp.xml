@@ -92,7 +92,6 @@
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="sosp"  />
     <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="sosp"  />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="sosp"  />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="sosp"  />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sosp"  />
     <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="sosp" />
     <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="sosp" />
