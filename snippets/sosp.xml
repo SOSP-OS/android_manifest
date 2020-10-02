@@ -81,7 +81,7 @@
     <!-- System -->
     
     <project path="system/bt" name="android_system_bt" remote="sosp" revision="sosp-10" />
-    <project path="system/core" name="android_system_core" remote="sosp" revision="sosp-10"  />
+    <project path="system/core" name="android_system_core-10" remote="sosp" revision="sosp-10"  />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="sosp" revision="sosp-10"  />
     <project path="system/netd" name="android_system_netd" remote="sosp" revision="sosp-10"  />
     <project path="system/vold" name="android_system_vold" remote="sosp" revision="sosp-10"  />
