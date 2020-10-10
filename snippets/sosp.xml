@@ -139,7 +139,8 @@
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp"  />
     <project path="external/selinux" name="android_external_selinux" remote="sosp" />
     <project path="external/json-c" name="android_external_json-c" remote="sosp" />
-    <project path="external/libcxx" name="android_external_libcxx" remote="sosp" />    
+    <project path="external/libcxx" name="android_external_libcxx" remote="sosp" />  
+    <project path="external/libpng" name="android_external_libpng" remote="sosp" />  
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />

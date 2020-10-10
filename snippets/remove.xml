@@ -88,6 +88,7 @@
   
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/selinux" />
   
   <!-- Hardware repos -->
