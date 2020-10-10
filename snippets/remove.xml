@@ -62,7 +62,8 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
        
   <!-- General repos -->
-  
+  <remove-project name="platform/development" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
@@ -86,6 +87,8 @@
   <!-- External repos -->
   
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/selinux" />
   
   <!-- Hardware repos -->
   

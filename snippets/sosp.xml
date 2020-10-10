@@ -13,6 +13,8 @@
   
     <!-- General -->
     
+    <project path="development" name="android_development" remote="sosp" />
+    <project path="art" name="android_art" remote="sosp" />
     <project path="build/make" name="android_build_make" remote="sosp"  >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -62,21 +64,23 @@
      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
   </project>
     
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp"  />    
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp"  />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp"  />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp"  />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp"  />  
+    <!--<project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="sosp"  />-->
+    <!--<project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp"  />-->
+    <!--<project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp"  />-->   
+    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp"  />
+    <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="sosp" />
+    
     <!-- SOSP Vendor Repos -->
     
     <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  /> 
     <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp"  />
-    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp"  />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp"  />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp"  />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp"  />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp"  />  
-    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="sosp"  />
-    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp"  />
-    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp"  />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp"  />
-     
+   
     <!-- System -->
     
     <project path="system/bt" name="android_system_bt" remote="sosp"  />
@@ -113,6 +117,8 @@
 
     <!-- Prebuilts -->
     
+    <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="sosp" />
+    <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="sosp" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="sosp"  />
@@ -131,7 +137,9 @@
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp" />
     <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="sosp" />
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp"  />
-    <project path="external/json-c" name="android_external_json-c" remote="sosp" />    
+    <project path="external/selinux" name="android_external_selinux" remote="sosp" />
+    <project path="external/json-c" name="android_external_json-c" remote="sosp" />
+    <project path="external/libcxx" name="android_external_libcxx" remote="sosp" />    
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
