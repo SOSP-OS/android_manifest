@@ -63,8 +63,6 @@
        
   <!-- General repos -->
   
-  <remove-project name="platform/development" />
-  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
@@ -73,8 +71,6 @@
   
   <!-- Prebuilts -->
   
-  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" /> 
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -90,10 +86,7 @@
   <!-- External repos -->
   
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/libcxx" />
-  <remove-project name="platform/external/libjpeg-turbo" />
-  <remove-project name="platform/external/selinux" />
-  
+    
   <!-- Hardware repos -->
   
   <remove-project name="platform/hardware/interfaces" />
