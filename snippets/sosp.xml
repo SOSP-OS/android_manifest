@@ -13,8 +13,6 @@
   
     <!-- General -->
     
-    <project path="development" name="android_development" remote="sosp" />
-    <project path="art" name="android_art" remote="sosp" />
     <project path="build/make" name="android_build_make" remote="sosp"  >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -72,7 +70,6 @@
     <!--<project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp"  />-->
     <!--<project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp"  />-->   
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp"  />
-    <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="sosp" />
     
     <!-- SOSP Vendor Repos -->
     
@@ -116,8 +113,6 @@
 
     <!-- Prebuilts -->
     
-    <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="sosp" />
-    <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="sosp" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="sosp"  />
@@ -138,8 +133,6 @@
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp"  />
     <project path="external/selinux" name="android_external_selinux" remote="sosp" />
     <project path="external/json-c" name="android_external_json-c" remote="sosp" />
-    <project path="external/libcxx" name="android_external_libcxx" remote="sosp" />  
-    <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="sosp" /> 
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
