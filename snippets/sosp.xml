@@ -77,8 +77,9 @@
     
     <!-- SOSP Vendor Repos -->
     
-    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  /> 
+    <project path="vendor/google/gms" name="android_vendor_google_gms" remote="sosp"  /> 
     <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp"  />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  />
    
     <!-- System -->
     
