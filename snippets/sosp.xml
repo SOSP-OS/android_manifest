@@ -61,11 +61,7 @@
   </project>
     
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp"  />    
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp"  />    
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="sosp" />
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="sosp" />
-    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="sosp" />
-    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="sosp"  />    
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp"  />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp"  />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp"  />
