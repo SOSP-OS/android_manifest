@@ -10,10 +10,14 @@
         
     <remote name="sosp-caf"
         fetch="https://github.com/SOSP-OS"/>
+
+    <remote name="sosp-devices"
+        fetch="https://github.com/SOSP-OS"        
+        revision="sosp-12-dev"/>        
   
     <!-- General -->
     
-    <project path="build/make" name="android_build_make" remote="sosp"  >
+    <project path="build/make" name="android_build" remote="sosp"  >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -61,7 +65,7 @@
   </project>
     
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp-caf" revision="sosp-11" />    
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp-caf" revision="sosp-11"   />    
+   <!-- <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp-caf" revision="sosp-11"   />    
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="sosp-caf" revision="sosp-11" />
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="sosp-caf" revision="sosp-11" />
@@ -70,17 +74,15 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp-caf" revision="sosp-11" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp-caf" revision="sosp-11"  />  
-    <!--<project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="sosp-caf" revision="sosp-11"  />-->
-    <!-- <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="sosp-caf" revision="sosp-11"  />-->
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="sosp-caf" revision="sosp-11" />
-    <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="sosp-caf" revision="sosp-11" />
+    <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="sosp-caf" revision="sosp-11" />-->
     
     <!-- SOSP Vendor Repos -->
     
-    <project path="vendor/google/gms" name="android_vendor_google_gms" remote="sosp"  /> 
+    <!--<project path="vendor/google/gms" name="android_vendor_google_gms" remote="sosp"  /> -->
     <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp"  />
     <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  />
    
@@ -133,7 +135,7 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="sosp"  />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="sosp"  />
     
-    <!-- External-->
+    <!-- External
        
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="sosp-caf" revision="sosp-11" />
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp-caf" revision="sosp-11" />
@@ -145,28 +147,29 @@
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp-caf" revision="sosp-11"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp-caf" revision="sosp-11"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
-    <project path="external/unrar" name="android_external_unrar" remote="sosp-caf" revision="sosp-11"  />
+    <project path="external/unrar" name="android_external_unrar" remote="sosp-caf" revision="sosp-11"  />-->
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     
     
     <!-- Sepolicy -->
     
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp"  />
-    <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp"  />
-    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp"  />
-    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="sosp" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp-devices"  />
+    <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp-devices"  />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp-devices"  />
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="sosp-devices" /> 
     
     <!-- Device Trees-->
     
                             <!-- Beryllium -->
 
-    <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp"  />
-    <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp"  /> 
-    <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp"  />
+    <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp-devices"  />
+    <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp-devices"  /> 
+    <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp-devices"  />
     
-                            <!-- Whyred -->
+                            <!-- Whyred 
                             
-    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp" /> 
-    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="sosp" /> 
-    <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sosp" />    
-                                                
+    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp-devices" /> 
+    <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="sosp-devices" /> 
+    <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sosp-devices" />    
+           -->                                     
 </manifest>
