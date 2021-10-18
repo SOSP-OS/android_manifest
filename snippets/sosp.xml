@@ -121,6 +121,7 @@
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sosp"  />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="sosp"  />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="sosp"  />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="sosp" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="sosp"  />
 
     <!-- Prebuilts -->
