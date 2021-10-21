@@ -64,7 +64,7 @@
      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
   </project>
     
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp-caf" revision="sosp-11" />    
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp-caf" revision="sosp-12" />    
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp-caf" revision="sosp-11"   />    
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="sosp-caf" revision="sosp-11" />
