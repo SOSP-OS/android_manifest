@@ -151,7 +151,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/unrar" name="android_external_unrar" remote="sosp-caf" revision="sosp-11"  />-->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
-    <project path="external/e2fsprogs" name=" android_external_e2fsprogs" remote="sosp"  />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="sosp"  />
     
     
     <!-- Sepolicy -->
