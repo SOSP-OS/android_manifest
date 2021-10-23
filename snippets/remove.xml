@@ -90,6 +90,7 @@
   <!-- External repos -->
   
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/e2fsprogs" />
     
   <!-- Hardware repos -->
   
