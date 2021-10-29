@@ -95,6 +95,7 @@
     
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sosp"  />
     <project path="hardware/ril" name="android_hardware_ril" remote="sosp"  />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sosp"  />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="sosp"  />
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="sosp"  />
     <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="sosp"  />
