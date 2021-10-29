@@ -143,6 +143,7 @@
     <project path="external/json-c" name="android_external_json-c" remote="sosp-caf" revision="sosp-11" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp-caf" revision="sosp-11"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp-caf" revision="sosp-11"  />
+    <project path="external/selinux" name="android_external_selinux" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/unrar" name="android_external_unrar" remote="sosp-caf" revision="sosp-11"  />
        
