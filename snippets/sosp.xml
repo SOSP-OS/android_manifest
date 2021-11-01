@@ -150,7 +150,7 @@
     
     <!-- Sepolicy -->
     
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp-devices"  />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp"  />
     <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp-devices"  />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp-devices"  />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="sosp-devices" /> 
