@@ -39,6 +39,7 @@
     <project path="frameworks/av" name="android_frameworks_av" remote="sosp"  />
     <project path="frameworks/base" name="android_frameworks_base" remote="sosp"  />
     <project path="frameworks/native" name="android_frameworks_native" remote="sosp"  />
+    <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="sosp" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sosp"  />
 
     <!-- CodeAurora additions -->
