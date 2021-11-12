@@ -172,5 +172,9 @@
     <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp"  /> 
     <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp"  />
     
-
+                            <!-- Whyred -->
+                            
+    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="sosp" />    
+    <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sosp" /> 
+ 
 </manifest>
