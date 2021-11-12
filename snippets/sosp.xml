@@ -57,6 +57,7 @@
     <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="sosp"  />    
     <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="sosp-caf" revision="sosp-11-caf" />
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="sosp" >
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="sosp-caf" revision="sosp-11-caf" />
      <!-- Add guard for AOSP hardware/qcom dir -->
      <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
      <!-- For AOSP sdm845, we override os_pickup.mk -->
