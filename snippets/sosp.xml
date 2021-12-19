@@ -80,6 +80,7 @@
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp-caf" revision="sosp-12"  />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sosp-caf" revision="sosp-11"  />
+    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="sosp-caf" revision="sosp-12" />
     <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="sosp-caf" revision="sosp-11" />
     <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="sosp-caf" revision="sosp-11" />
     
