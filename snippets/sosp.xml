@@ -76,7 +76,7 @@
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp-caf" revision="sosp-11" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp-caf" revision="sosp-11"  />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp-caf" revision="sosp-11"  />  
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp-caf" revision="sosp-12"  />  
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp-caf" revision="sosp-11"  />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="sosp-caf" revision="sosp-12"  />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sosp-caf" revision="sosp-11"  />
