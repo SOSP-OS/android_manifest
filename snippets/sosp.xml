@@ -150,7 +150,7 @@
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp-caf" revision="sosp-11" />
     <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="sosp-caf" revision="sosp-11" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="sosp"  />
-    <project path="external/exfat" name="android_external_exfat" remote="sosp-caf" revision="sosp-11"  />
+    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp-caf" revision="sosp-12"  />
     <project path="external/json-c" name="android_external_json-c" remote="sosp-caf" revision="sosp-11" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp-caf" revision="sosp-11"  />
     <project path="external/p7zip" name="android_external_p7zip" remote="sosp-caf" revision="sosp-11"  />
