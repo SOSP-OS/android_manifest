@@ -144,20 +144,20 @@
     
     <!-- External -->
        
-    <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="sosp-caf" revision="sosp-11" />
-    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp-caf" revision="sosp-11" />
-    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sosp-caf" revision="sosp-11" />
-    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp-caf" revision="sosp-11" />
-    <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="sosp-caf" revision="sosp-11" />
+    <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="sosp" />
+    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp" />
+    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sosp" />
+    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="sosp" />
+    <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="sosp" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="sosp"  />
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp-caf" revision="sosp-12"  />
-    <project path="external/json-c" name="android_external_json-c" remote="sosp-caf" revision="sosp-11" />
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp-caf" revision="sosp-11"  />
-    <project path="external/p7zip" name="android_external_p7zip" remote="sosp-caf" revision="sosp-11"  />
+    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp"  />
+    <project path="external/json-c" name="android_external_json-c" remote="sosp" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp" />
+    <project path="external/p7zip" name="android_external_p7zip" remote="sosp"  />
     <project path="external/selinux" name="android_external_selinux" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/tinyxml" name="android_external_tinyxml" remote="sosp" />
-    <project path="external/unrar" name="android_external_unrar" remote="sosp-caf" revision="sosp-11"  />
+    <project path="external/unrar" name="android_external_unrar" remote="sosp"  />
     
        
     
