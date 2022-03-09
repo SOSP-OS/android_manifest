@@ -125,10 +125,7 @@
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sosp"  />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sosp"  />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="sosp"  />
-    <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="sosp" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="sosp"  />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="sosp" />
-    <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="sosp" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="sosp"  />
 
     <!-- Prebuilts -->
@@ -143,7 +140,7 @@
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="sosp"  />
     
     <!-- External -->
-    <project path="external/colorkt" name="android_external_colorkt" remote="sosp" />      
+    
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="sosp" />
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native"  remote="sosp" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="sosp" />
@@ -153,15 +150,10 @@
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="sosp"  />
     <project path="external/json-c" name="android_external_json-c" remote="sosp" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="sosp" />
-    <project path="external/p7zip" name="android_external_p7zip" remote="sosp"  />
     <project path="external/selinux" name="android_external_selinux" remote="sosp"  />
-    <project path="external/themelib" name="android_external_themelib" remote="sosp" />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/tinyxml" name="android_external_tinyxml" remote="sosp" />
-    <project path="external/unrar" name="android_external_unrar" remote="sosp"  />
-    
-       
-    
+        
     <!-- Sepolicy -->
     
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sosp"  />
