@@ -119,7 +119,6 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/telephony" />
   
   <!-- Packages repos -->
@@ -133,11 +132,8 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
    
