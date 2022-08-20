@@ -102,7 +102,7 @@
 
     <!-- Prebuilts -->
     
-    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="sosp"  />
+    <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="sosp"  />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="sosp"  />
     
