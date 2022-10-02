@@ -68,10 +68,8 @@
     
     <!-- SOSP Vendor Repos -->
     
-    <!--<project path="vendor/google/gms" name="android_vendor_google_gms" remote="sosp"  /> -->
     <project path="vendor/sosp" name="android_vendor_sosp" remote="sosp"  />
     <project path="vendor/support" name="android_vendor_support" remote="sosp" />
-    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sosp"  />
    
     <!-- System -->
     
@@ -139,5 +137,7 @@
     <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp"  />
     <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp"  /> 
     <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp"  />
+    <project path="vendor/xiaomi/beryllium" name="proprietary_vendor_xiaomi_beryllium" remote="sosp"  />
+    <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="sosp"  />
     
 </manifest>
