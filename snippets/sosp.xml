@@ -158,5 +158,6 @@
     <project path="proprietary/vendor/amlogic/franklin" name="proprietary_vendor_amlogic_franklin" remote="sosp"/>
     <project path="proprietary/vendor/amlogic/g12-common" name="proprietary_vendor_amlogic_g12-common" remote="sosp"/>
     <project path="kernel/amlogic/linux-4.9" name="android_kernel_amlogic_linux-4.9" remote="sosp"/>
+    <project path="device/google/atv" name="android_device_google_atv" remote="sosp" />
     
 </manifest>
