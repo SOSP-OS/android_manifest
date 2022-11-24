@@ -85,6 +85,15 @@
     <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sosp"  />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sosp"  />
     <project path="hardware/sosp-os/compat" name="android_hardware_sosp-os_compat" remote="sosp" />
+              <!--Amlogic-->
+    <project path="android/hardware/amlogic/kernel-modules/rtl8189es" name="android_hardware_amlogic_kernel-modules_rtl8189es" remote="sosp"  />
+    <project path="android/hardware/amlogic/tools/respacker" name="android_hardware_amlogic_tools_respacker" remote="sosp"  />
+    <project path="android/hardware/amlogic/tools/imagepacker" name="android_hardware_amlogic_tools_imagepacker" remote="sosp"  />
+    <project path="android/hardware/amlogic/tools/dtbtool" name="android_hardware_amlogic_tools_dtbtool" remote="sosp"  />
+    <project path="android/hardware/amlogic/kernel-modules/optee" name="android_hardware_amlogic_kernel-modules_optee" remote="sosp"  />
+    <project path="android/hardware/amlogic/kernel-modules/media" name="android_hardware_amlogic_kernel-modules_media" remote="sosp"  />
+    <project path="android/hardware/amlogic/kernel-modules/mali-driver" name="android_hardware_amlogic_kernel-modules_mali-driver" remote="sosp"/>
+            
     
     <!-- Packages -->
     
@@ -130,6 +139,7 @@
     <project path="device/sosp/sepolicy" name="android_device_sosp_sepolicy" remote="sosp"  />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="sosp"  />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="sosp" /> 
+    <project path="device/amlogic/sepolicy" name="android_device_amlogic_sepolicy" remote="sosp"  />
     
     <!-- Device Trees-->
     
@@ -140,5 +150,13 @@
     <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp"  />
     <project path="vendor/xiaomi/beryllium" name="proprietary_vendor_xiaomi_beryllium" remote="sosp"  />
     <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="sosp"  />
+    
+    			    <!-- Franklin -->	
+    <project path="device/amlogic/franklin" name="android_device_amlogic_franklin" remote="sosp"/>
+    <project path="device/amlogic/common" name="android_device_amlogic_common" remote="sosp"/>
+    <project path="device/amlogic/g12-common" name="android_device_amlogic_g12-common" remote="sosp"/>
+    <project path="proprietary/vendor/amlogic/franklin" name="proprietary_vendor_amlogic_franklin" remote="sosp"/>
+    <project path="proprietary/vendor/amlogic/g12-common" name="proprietary_vendor_amlogic_g12-common" remote="sosp"/>
+    <project path="kernel/amlogic/linux-4.9" name="android_kernel_amlogic_linux-4.9" remote="sosp"/>
     
 </manifest>
