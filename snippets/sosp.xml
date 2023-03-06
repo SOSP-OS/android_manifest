@@ -153,11 +153,9 @@
     <project path="vendor/xiaomi/beryllium" name="proprietary_vendor_xiaomi_beryllium" remote="sosp"  />
     <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="sosp"  />
     
-    			    <!-- Franklin -->	
-    <project path="device/amlogic/franklin" name="android_device_amlogic_franklin" remote="sosp"/>
+    			    <!-- Amlogic -->	
     <project path="device/amlogic/common" name="android_device_amlogic_common" remote="sosp"/>
     <project path="device/amlogic/g12-common" name="android_device_amlogic_g12-common" remote="sosp"/>
-    <project path="vendor/amlogic/franklin" name="proprietary_vendor_amlogic_franklin" remote="sosp"/>
     <project path="vendor/amlogic/g12-common" name="proprietary_vendor_amlogic_g12-common" remote="sosp"/>
     <project path="kernel/amlogic/linux-4.9" name="android_kernel_amlogic_linux-4.9" remote="sosp"/>
     <project path="device/google/atv" name="android_device_google_atv" remote="sosp" />
