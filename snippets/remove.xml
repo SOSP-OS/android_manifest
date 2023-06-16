@@ -36,6 +36,12 @@
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/lynx" />
+  <remove-project name="device/google/lynx-sepolicy" />
+  <remove-project name="device/google/lynx-kernel" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-sepolicy" />
+  <remove-project name="device/google/pantah-kernel" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
@@ -53,6 +59,9 @@
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  
+  
+
   
   
   <!-- External repos -->
