@@ -6,14 +6,14 @@
 
     <remote name="sosp"
         fetch="https://github.com/SOSP-OS"        
-        revision="sosp-13"/>
+        revision="sosp-14"/>
         
     <remote name="sosp-caf"
         fetch="https://github.com/SOSP-OS"/>
     
     <remote name="sosp-devices"
         fetch="https://github.com/SOSP-OS-Devices"        
-        revision="sosp-13"/>    
+        revision="sosp-14"/>    
         
     <!-- General -->
     
@@ -89,16 +89,6 @@
     <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sosp"  />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sosp"  />
     <project path="hardware/sosp-os/compat" name="android_hardware_sosp-os_compat" remote="sosp" />
-                                       <!--Amlogic-->
-    <project path="hardware/amlogic/tools/respacker" name="android_hardware_amlogic_tools_respacker" remote="sosp"  />
-    <project path="hardware/amlogic/tools/imagepacker" name="android_hardware_amlogic_tools_imagepacker" remote="sosp"  />
-    <project path="hardware/amlogic/tools/dtbtool" name="android_hardware_amlogic_tools_dtbtool" remote="sosp"  />
-    <project path="hardware/amlogic/kernel-modules/optee" name="android_hardware_amlogic_kernel-modules_optee" remote="sosp"  />
-    <project path="hardware/amlogic/kernel-modules/media" name="android_hardware_amlogic_kernel-modules_media" remote="sosp"  />
-    <project path="hardware/amlogic/kernel-modules/mali-driver" name="android_hardware_amlogic_kernel-modules_mali-driver" remote="sosp"/>
-                                       <!--Realtek-->
-    <project path="hardware/realtek" name="android_hardware_realtek" remote="sosp"/>
-    <project path="hardware/amlogic/kernel-modules/rtl8189es" name="android_hardware_amlogic_kernel-modules_rtl8189es" remote="sosp"  />
             
     
     <!-- Packages -->
