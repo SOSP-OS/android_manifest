@@ -10,7 +10,7 @@
         
     <remote name="sosp-caf"
         fetch="https://github.com/SOSP-OS"
-        revision="sosp-13-sdm845-caf" />
+        revision="sosp-14-sdm845-caf" />
         
     <remote name="sosp-dev"
         fetch="https://github.com/SOSP-OS"
@@ -67,7 +67,7 @@
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="sosp-dev" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sosp-dev"  />
     <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="sosp-dev" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp-dev" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sosp" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="sosp-dev"  />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="sosp-dev"  />  
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="sosp-dev"  />
