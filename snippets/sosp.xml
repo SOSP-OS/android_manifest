@@ -3,7 +3,10 @@
 
     <remote name="github"
         fetch="https://github.com/" />
-
+        
+    <remote  name="gitlab"
+           fetch="https://gitlab.com" />  
+           
     <remote name="sosp"
         fetch="https://github.com/SOSP-OS"        
         revision="sosp-14"/>
@@ -19,6 +22,11 @@
     <remote name="sosp-devices"
         fetch="https://github.com/SOSP-OS-Devices"        
         revision="sosp-14"/>    
+        
+    <remote  name="sosp-gl"
+        fetch="https://gitlab.com/SOSP-OS"
+        revision="sosp-14" />   
+  
         
     <!-- General -->
     
@@ -136,6 +144,7 @@
     <project path="external/selinux" name="android_external_selinux" remote="sosp"  />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/tinyxml" name="android_external_tinyxml" remote="sosp-dev" />
+    <project path="external/cronet" name="android_external_cronet" remote="sosp-gl" />
         
     <!-- Sepolicy -->
     
