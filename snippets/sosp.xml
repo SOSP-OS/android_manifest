@@ -100,8 +100,8 @@
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="sosp"  />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="sosp"  />
     <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="sosp"  />
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sosp-dev"  />
-    <project path="hardware/sosp-os/compat" name="android_hardware_sosp-os_compat" remote="sosp-dev" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sosp"  />
+    <project path="hardware/sosp-os/compat" name="android_hardware_sosp-os_compat" remote="sosp" />
             
     
     <!-- Packages -->
