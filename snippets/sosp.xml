@@ -59,7 +59,6 @@
     <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="sosp-caf"/>
     <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="sosp-caf" />
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="sosp" />
-    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="sosp-dev"  />    
     <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="sosp-dev" />
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="sosp-dev" >
      <!-- Add guard for AOSP hardware/qcom dir -->
