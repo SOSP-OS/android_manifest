@@ -2,10 +2,10 @@
 <manifest>
                             <!-- Beryllium -->
 
-    <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp-devices"  />
-   <!-- <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp-devices"  /> -->
+   <!--  <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="sosp-devices"  />
+   <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="sosp-devices"  /> 
     <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="sosp-devices"  />
     <project path="vendor/xiaomi/beryllium" name="proprietary_vendor_xiaomi_beryllium" remote="sosp-devices"  />
-   <!-- <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="sosp-devices"  /> -->
+    <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="sosp-devices"  /> -->
    
 </manifest>
