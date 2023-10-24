@@ -45,6 +45,7 @@
     </project>
     <project path="bionic" name="android_bionic" remote="sosp"  />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="sosp"  />
+    <project path="kernel/configs" name="android_kernel_configs" remote="sosp" />
     
     <!-- Frameworks -->
     
