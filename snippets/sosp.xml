@@ -70,7 +70,7 @@
      <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk"  />
   </project>
     
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp-dev" />    
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="sosp" />    
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="sosp-dev"   />   
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="sosp-dev" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="sosp-dev"  />
