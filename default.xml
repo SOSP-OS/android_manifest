@@ -1267,6 +1267,6 @@
   
   <!-- Add SOSP repos -->
   <include name="snippets/sosp.xml" />
-  <include name="snippets/devices.xml" />
+ <!-- <include name="snippets/devices.xml" /> -->
   
 </manifest>
