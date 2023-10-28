@@ -148,6 +148,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="sosp"  />
     <project path="external/cronet" name="android_external_cronet" remote="sosp-gl" />
     <project path="external/libcxx" name="android_external_libcxx" remote="sosp" />
+    <project path="external/tinyxml" name="android_external_tinyxml" remote="sosp" />
         
     <!-- Sepolicy -->
     
