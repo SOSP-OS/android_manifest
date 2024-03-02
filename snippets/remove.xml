@@ -74,8 +74,6 @@
   
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libcxx" />
-  <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/cronet" />
@@ -125,11 +123,9 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libhidl" />
-  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   
 
